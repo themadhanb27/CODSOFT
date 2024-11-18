@@ -1,0 +1,101 @@
+/* Body styling for centering and background design */
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+}
+
+/* Calculator container styling */
+.calculator {
+  width: 350px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+/* Display section styling */
+.display {
+  background: #333333;
+  color: #00ff00;
+  text-align: right;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding: 20px;
+  height: 80px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Buttons grid styling */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+  background: #f8f9fa;
+}
+
+/* Button styling */
+button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 20px;
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #e0e0e0, #ffffff);
+  color: #333;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background 0.3s ease, box-shadow 0.2s ease;
+}
+
+/* Hover and active states */
+button:hover {
+  background: linear-gradient(145deg, #d6d6d6, #f0f0f0);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: scale(0.95);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Special buttons (like clear or operators) styling */
+button:nth-child(1) {
+  background: #ff4d4d; /* Clear button */
+  color: white;
+}
+
+button:nth-child(1):hover {
+  background: #ff6666;
+}
+
+button:nth-child(2),
+button:nth-child(3),
+button:nth-child(4),
+button:nth-child(8) {
+  background: #4da6ff; /* Operator buttons */
+  color: white;
+}
+
+button:nth-child(2):hover,
+button:nth-child(3):hover,
+button:nth-child(4):hover,
+button:nth-child(8):hover {
+  background: #66b3ff;
+}
+
+/* Equal button styling */
+button:nth-child(12) {
+  background: #47d147; /* Equal button */
+  color: white;
+}
+
+button:nth-child(12):hover {
+  background: #5ce65c;
+}

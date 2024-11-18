@@ -1,0 +1,148 @@
+/* Reset and Typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  background: #222;
+  padding: 15px 0;
+  color: #fff;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar .nav-links li {
+  margin: 0 10px;
+}
+
+.navbar .nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar .btn-primary {
+  background: #ff5722;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to bottom right, #4e73df, #1a3b94);
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-buttons .btn-primary,
+.hero-buttons .btn-secondary {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-buttons .btn-primary {
+  background: #ff5722;
+  color: #fff;
+}
+
+.hero-buttons .btn-secondary {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+/* Features Section */
+.features {
+  background: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.features .feature {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.5%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.features .icon {
+  font-size: 2rem;
+  color: #4e73df;
+  margin-bottom: 10px;
+}
+
+/* Services Section */
+.services {
+  background: #f4f4f9;
+  padding: 40px 20px;
+}
+
+.services .service {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.5%;
+  text-align: center;
+}
+
+.services img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+.footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer a {
+  color: #ff5722;
+  text-decoration: none;
+}
